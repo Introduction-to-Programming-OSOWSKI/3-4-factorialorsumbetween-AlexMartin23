@@ -6,7 +6,7 @@ def factOrSum(x, o):
         return number
     else:
         number = 0
-        for i in range (1, x):
+        for i in range (1, x + 1):
             number = number + i
         return number
 
